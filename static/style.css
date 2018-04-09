@@ -52,11 +52,14 @@ input:hover:not([type=file])
     /* background: #244363; */
     background: #93c54b;
     color: #eee;
-    padding: 5px 30px;
-    border: 1px solid #999;
+    /* margin: 0 40%; */
+    /* width: 100%; */
+    padding: 10px 30px;
+    /* border: 1px solid #999; */
     border-radius: 3px;
     outline: none;
     white-space: nowrap;
+    user-select: none;
     -webkit-user-select: none;
     cursor: pointer;
     /* text-shadow: 1px 1px #fff; */
@@ -119,3 +122,14 @@ input:hover:not([type=file])
   {
       border-radius: 10%;
   }
+
+  @media screen and (max-width: 480px) {
+    body
+    {
+        background: url('a')!important;
+    }
+    .himg>img
+    {
+        width: 100%;
+    }
+}

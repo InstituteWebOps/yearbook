@@ -1,5 +1,9 @@
 <?php @session_start();
 include('include/_db.php');
+
+        $m = [];
+        $string = $_SERVER['REQUEST_URI'];
+        preg_match('/\/([a-zA-Z]+).php/', $string, $m );
 ?>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -15,7 +19,7 @@ include('include/_db.php');
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="details.php">Fill in details for Yearbook<span class="sr-only">(current)</span></a></li>
+        <li class="<?php echo($m[1]=='details'?'active':''); ?>"><a href="details.php">Fill in details for Yearbook<span class="sr-only">(current)</span></a></li>
         <!-- <li><a href="#">Link</a></li> -->
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -23,7 +27,7 @@ include('include/_db.php');
             if(isset($_SESSION['rollno']))
             {
                 echo '
-                <li><a href="#">Welcome, '.$_SESSION['rollno'].'</a></li>                
+                <li><a>Welcome, '.$_SESSION['rollno'].'</a></li>                
                 <li><a href="logout.php">Log Out</a></li>';
             } else
             {

@@ -12,12 +12,12 @@ if(!isset($_SESSION['rollno'])) header('location: login.php')
     <link rel="stylesheet" href="static/sandstone.min.css">
     <link rel="stylesheet" href="static/style.css">
 </head>
-<body style="background: url(https://www.wallpapersvenue.com/wp-content/uploads/2017/07/white-background-wallpaper.jpg)">
+<body>
     <?php include('include/_navbar.php'); ?>
     <div class="col-md-6 col-md-push-3">
         <div class="well well-lg">
             <?php 
-
+            if(empty($_POST)) header('Location: details.php');
             $retr = retrieve('SELECT rollno FROM entries WHERE rollno = "'.$_SESSION['rollno'].'";', $conn);
             if(empty($retr)) store($conn, $_POST);
             else update($conn, $_POST);

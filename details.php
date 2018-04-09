@@ -53,7 +53,7 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 15) die('Sorry. You are not eligib
             <form class="form-horizontal" method="POST" action="submit.php" enctype="multipart/form-data" onsubmit="return valid() && true">
                 <fieldset>
                     <legend class="text-center">Fill details for the Yearbook</legend>
-                    <div class="form-group">
+                    <div class="form-group text-center">
                         <label for="pic" class="col-lg-3 control-label">Your Photo</label>
                         <div class="col-lg-9">
                             <img class="uplDP" width="170" src="<?php echo(file_exists("uploads/".$_SESSION['rollno'].".jpg")?"uploads/".$_SESSION['rollno'].".jpg":"img/default.png")?>">
@@ -81,6 +81,7 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 15) die('Sorry. You are not eligib
                             <input type="text" class="form-control" name="first" required placeholder="First Name" value="<?php echo $data['first'] ?>">
                         </div>
                         <div class="col-lg-3">
+                            <span class="help-block text-center"></span>
                             <input type="text" class="form-control" name="insti" placeholder="Insti Name" value="<?php echo $data['insti'] ?>">
                             <span class="help-block text-center">(Optional)</span>
                         </div>
