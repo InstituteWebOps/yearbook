@@ -122,6 +122,17 @@ input:hover:not([type=file])
   {
       border-radius: 10%;
   }
+  
+  .quoteex
+  {
+    text-align: center;
+  }
+  .quoteex>img
+  {
+    max-width: 100%;
+    margin-bottom: 15px;
+    /* border-radius: 10px; */
+  }
 
   @media screen and (max-width: 480px) {
     body

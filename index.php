@@ -38,7 +38,7 @@
             <hr id="7">
             <p class="text-center" id="8">
                 <?php if(!isset($_SESSION['rollno'])) echo '<a href="login.php" class="btn btn-primary">Log in</a><br><br>'; ?>
-                <a class="btn btn-primary" <?php echo (!isset($_SESSION[ 'rollno'])? 'disabled': 'href="details.php"') ?>>Click here to fill in details for the Yearbook</a>
+                <a class="btn btn-primary" <?php echo (!isset($_SESSION[ 'rollno'])? 'disabled': 'href="details.php"') ?>>Click here to fill in<br> details for the Yearbook</a>
             </p>
         </div>
     </div>

@@ -8,7 +8,7 @@
 						case 'yearbook':
 								title = 'Quote fundae'
 								body = `
-								<div class="row">
+								<div class="row quoteex">
 									<img src="img/quotes/1.jpg" class="col-md-6"/>
 									<img src="img/quotes/2.jpg" class="col-md-6"/>
 									<img src="img/quotes/4.jpg" class="col-md-6"/>
@@ -35,7 +35,7 @@
 									<li>The project chosen by most number of students will be taken up as the primary batch project for 2018 graduating batch.</li>
 									<li>Any surplus amount generated after completely funding the primary batch project would be allocated to the remaining projects based on the voting done by students.</li>
 									<li>Only <b>₹1700</b> will be pledged by default out of the caution deposit of ₹2000. The remaining ₹300 is used for the convocation ceremony(Includes gown etc) by the administration.</li>
-									<li>All the issues related to the batch project are to be taken up with the Dean - IAR.</li>
+									<li>All the issues related to the batch project are to be taken up with the IAR Secretary.</li>
 								</ol>
 								`
 								break;
