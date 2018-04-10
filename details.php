@@ -4,7 +4,7 @@ session_start();
 // $_SESSION['rollno'] = 'ae15b004';
 if(!isset($_SESSION['rollno'])) header('location: login.php');
 
-if((int)(substr($_SESSION['rollno'], 2, 2)) > 15) die('Sorry. You are not eligible to sign up for ');
+if((int)(substr($_SESSION['rollno'], 2, 2)) > 14) die('Sorry. You are not eligible to sign up for the yearbook.');
 
 ?>
 <html lang="en">
