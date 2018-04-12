@@ -72,12 +72,3 @@ if(!$('input[type="radio"]#2018').is(":checked")) $('.batchProj').fadeOut();
 //     // $('select#hostel option#hostel_Godavari').attr('selected', 'selected');
 //     // $('select#hostel option[value="hostel_Godavari"]').attr('selected', 'selected');
 // }
-
-function animat()
-{
-    // $('.jumbotron').fadeOut(1000);
-    // $('.jumbotron').delay(5500).append(`<h1 id="1">Hi</h1>`).fadeIn(1000);
-    // $('.jumbotron>#1').delay(900).fadeIn();
-    // $('.jumbotron>#2').delay(900).fadeIn();
-    // $('.jumbotron>#3').delay(900).fadeIn();
-}

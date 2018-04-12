@@ -1,3 +1,6 @@
+<meta name="description" content="Yearbook Portal for the graduating batch of 2018, IIT Madras." />
+<meta name="keywords" content="Yearbook, IIT, IIT Madras, Madras, Chennai, 2018, Alumni, Graduate">
+<meta name="author" content="Insitute Web Operations">
 <?php @session_start();
 include('include/_db.php');
 

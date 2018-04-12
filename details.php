@@ -169,12 +169,12 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 14) die('Sorry. You are not eligib
                                 <div class="panel-body">
                                     <div class="radio">
                                         <label>
-                                            <input required type="radio" name="bp" id="Option 1" value="1" <?php echo ($data['bp']=='1'?'checked':'') ?>> Sports Scholarship for new students
+                                            <input type="radio" name="bp" id="Option 1" value="1" <?php echo ($data['bp']=='1'?'checked':'') ?>> New Placement Portal
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label>
-                                            <input type="radio" name="bp" id="Option 2" value="2" <?php echo ($data['bp']=='2'?'checked':'') ?>> New Placement Portal
+                                            <input required type="radio" name="bp" id="Option 2" value="2" <?php echo ($data['bp']=='2'?'checked':'') ?>> Sports Scholarship for new students
                                         </label>
                                     </div>
                                     <div class="radio">
@@ -208,6 +208,6 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 14) die('Sorry. You are not eligib
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="static/script.js"></script>
-<script>selhostel("<?php echo $data['hostel'] ?>")</script>
+<!-- <script>selhostel("<?php //echo $data['hostel'] ?>")</script> -->
 
 </html>
