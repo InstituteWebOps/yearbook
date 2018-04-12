@@ -9,7 +9,7 @@ $('#logInForm').submit(function(e)
     }, function(data, status) 
     {
         data = JSON.parse(data);
-        console.log(data);
+        // console.log(data);
         if(data['status'] == 'success') window.location = 'index.php';
         else 
         {
@@ -20,6 +20,19 @@ $('#logInForm').submit(function(e)
     });
 });
 
+function valid()
+{
+$('#smailWarning').fadeOut();
+// ^([A-Za-z]){2}([0-9]){2}([A-Za-z]){1}([0-9]){3}(@smail.iitm.ac.in)$
+var patt = new RegExp("^([A-Za-z]){2}([0-9]){2}([A-Za-z]){1}([0-9]){3}(@smail.iitm.ac.in)$");
+if(patt.test($('input[type="email"]').val()))
+{
+    // alert('hatt bsdk');
+    $('#smailWarning').fadeIn();
+    return false;
+}
+return true;
+}
 
 $('input[type="checkbox"]#donate').click(function(){
     if($(this).is(":checked")){
@@ -52,6 +65,7 @@ $('#quoLen').text((96 - $('#quote').val().length)+' characters remaining')
 
 // $(document)
 
+$('#smailWarning').fadeOut();
 if(!$('input[type="checkbox"]#donate').is(":checked")) $('#bProj').fadeOut();
 if(!$('input[type="radio"]#2018').is(":checked")) $('.batchProj').fadeOut();
 

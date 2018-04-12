@@ -4,7 +4,7 @@ session_start();
 // $_SESSION['rollno'] = 'ae15b004';
 if(!isset($_SESSION['rollno'])) header('location: login.php');
 
-if((int)(substr($_SESSION['rollno'], 2, 2)) > 14 && strtolower(substr($_SESSION['rollno'], 4, 1)) == 'b') die('Sorry. You are not eligible to sign up for the yearbook.');
+if((int)(substr($_SESSION['rollno'], 2, 2)) > 15 && strtolower(substr($_SESSION['rollno'], 4, 1)) == 'b') die('Sorry. You are not eligible to sign up for the yearbook.');
 
 ?>
 <html lang="en">
@@ -79,9 +79,9 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 14 && strtolower(substr($_SESSION[
                         <label for="first" class="col-lg-3 control-label">Name</label>
                         <div class="col-lg-3">
                             <input type="text" class="form-control" name="first" required placeholder="First Name" value="<?php echo $data['first'] ?>">
+                        <span class="help-block text-center"></span>
                         </div>
                         <div class="col-lg-3">
-                            <span class="help-block text-center"></span>
                             <input type="text" class="form-control" name="insti" placeholder="Insti Name" value="<?php echo $data['insti'] ?>">
                             <span class="help-block text-center">(Optional)</span>
                         </div>
@@ -198,6 +198,7 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 14 && strtolower(substr($_SESSION[
                         <div class="col-lg-9 col-lg-offset-3">
                             <p>You can edit these details until we freeze the portal on <span class = "label label-default">April 20, 2018</span>.<br>
                             Yearbooks will be distributed during <b>Convocation</b> along with gowns.</p>
+                            <small class="text-muted text-danger" id="smailWarning">Please do not enter your Smail ID.</small><br>
                             <button type="submit" class="btn btn-lg btn-success btn-submit">Save Changes</button>
                         </div>
                     </div>
