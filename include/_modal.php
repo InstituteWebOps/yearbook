@@ -45,7 +45,7 @@
 								<br><br>
 								Through the batch project, the graduands of the institute get an opportunity to leave an impact. It’s all about giving back to the institute. Every year, a good number of projects are offered to the graduating batch to choose from and a project is finalised on the basis of a consensus reached by the graduating batch.
 								<br><br>
-								The batches of 2014, 2015 and 2016 batch donated for the construction of a cemented road from Humanities Sciences Block to the Building Sciences Block. Now, this road is being extensively used by students, professors and staff members.
+								The batches of 2014, 2015, and 2016 donated for the construction of a cemented road from Humanities Sciences Block to the Building Sciences Block. Now, this road is being extensively used by students, professors and staff members.
 								<br><br>
 								A brief description of this year’s batch projects is as follows:-
 								<ol>

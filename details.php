@@ -4,7 +4,7 @@ session_start();
 // $_SESSION['rollno'] = 'ae15b004';
 if(!isset($_SESSION['rollno'])) header('location: login.php');
 
-if((int)(substr($_SESSION['rollno'], 2, 2)) > 14) die('Sorry. You are not eligible to sign up for the yearbook.');
+if((int)(substr($_SESSION['rollno'], 2, 2)) > 15 && strtolower(substr($_SESSION['rollno'], 4, 1)) == 'b') die('Sorry. You are not eligible to sign up for the yearbook.');
 
 ?>
 <html lang="en">
@@ -196,7 +196,7 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 14) die('Sorry. You are not eligib
                     <!-- <hr class="batchProj"> -->
                     <div class="form-group text-center">
                         <div class="col-lg-9 col-lg-offset-2">
-                            <p>You can edit these details later on, until we freeze the portal.</p>
+                            <p>You can edit these details later on until we freeze the portal on <b>April 20, 2018</b>.</p>
                             <button type="submit" class="btn btn-lg btn-success btn-submit">Save Changes</button>
                         </div>
                     </div>
