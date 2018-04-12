@@ -4,7 +4,7 @@ session_start();
 // $_SESSION['rollno'] = 'ae15b004';
 if(!isset($_SESSION['rollno'])) header('location: login.php');
 
-if((int)(substr($_SESSION['rollno'], 2, 2)) > 14 && strtolower(substr($_SESSION['rollno'], 4, 1)) == 'b') die('Sorry. You are not eligible to sign up for the yearbook.');
+if((int)(substr($_SESSION['rollno'], 2, 2)) > 15 && strtolower(substr($_SESSION['rollno'], 4, 1)) == 'b') die('Sorry. You are not eligible to sign up for the yearbook.');
 
 ?>
 <html lang="en">
@@ -195,8 +195,8 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 14 && strtolower(substr($_SESSION[
                     </div>
                     <!-- <hr class="batchProj"> -->
                     <div class="form-group text-center">
-                        <div class="col-lg-9 col-lg-offset-2">
-                            <p>You can edit these details later on until we freeze the portal on <b>April 20, 2018</b>.<br>
+                        <div class="col-lg-9 col-lg-offset-3">
+                            <p>You can edit these details until we freeze the portal on <span class = "label label-default">April 20, 2018</span>.<br>
                             Yearbooks will be distributed during <b>Convocation</b> along with gowns.</p>
                             <button type="submit" class="btn btn-lg btn-success btn-submit">Save Changes</button>
                         </div>
