@@ -28,10 +28,10 @@
                 Yearbook tries to captures the nostalgic memories of the graduating batch in the form of photos and content related to insti
                 life. Few years from now when you walk down the memory lane, this yearbook will prove to be the light that
                 will lit up the faded memories. It gives you an opportunity to relive the golden days of your life in a creative
-                way, a beautiful chapter that always made the preface of your biography. The International and Alumni Relations
+                way, a beautiful chapter that always made the preface of your biography. <br>The International and Alumni Relations
                 (IAR) Student Council works every year to publish two separate yearbooks, one for each of the graduating
                 batches of the Undergraduate and Post Graduate students. The yearbook contains message from the Director,
-                the Dean IAR and the Dean of Students (DoST) for the graduating batch. Each year, the International and Alumni
+                the Dean IAR and the Dean of Students (DoST) for the graduating batch. It also contains individual images, quotes and department group photos of the graduating batch. Each year, the International and Alumni
                 Relations (IAR) Student Council strives to make the yearbook as wholesome and complete to touch upon the
                 different prospects of insti life in a humorous way.
             </h5>
