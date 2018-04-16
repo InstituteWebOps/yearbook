@@ -36,6 +36,7 @@
 									<li>Any surplus amount generated after completely funding the primary batch project would be allocated to the remaining projects based on the voting done by students.</li>
 									<li>Only <b>₹1700</b> will be pledged by default out of the caution deposit of ₹2000. The remaining ₹300 is used for the convocation ceremony(Includes gown etc) by the administration.</li>
 									<li>All the issues related to the batch project are to be taken up with the IAR Secretary.</li>
+									<li>If a graduating student has NOT <b>"un-ticked"</b> (opted out) the option for donating to a batch project, then by default it will be considered as a <b>"Yes"</b>, irrespective of opening or accessing the portal</li>
 								</ol>
 								`
 								break;

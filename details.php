@@ -196,7 +196,7 @@ if((int)(substr($_SESSION['rollno'], 2, 2)) > 15 && strtolower(substr($_SESSION[
                     <!-- <hr class="batchProj"> -->
                     <div class="form-group text-center">
                         <div class="col-lg-9 col-lg-offset-3">
-                            <p>You can edit these details until we freeze the portal on <span class = "label label-default">April 20, 2018</span>.<br>
+                            <p>You can edit these details until we freeze the portal on <span class = "label label-default">April 23, 2018</span>.<br>
                             Yearbooks will be distributed during <b>Convocation</b> along with gowns.</p>
                             <small class="text-muted text-danger" id="smailWarning">Please do not enter your Smail ID.</small><br>
                             <button type="submit" class="btn btn-lg btn-success btn-submit">Save Changes</button>
